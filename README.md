@@ -10,7 +10,7 @@ Step 1. First, I made an account on DigitalOcean using a special url that gave m
 
 Step 2. I then created an Ubuntu droplet on the cheapest price plan, $4 a month, which, again, is great because I am poor.
 
-Step 3. After my droplet was set up (I chose to password protect it to avoid the hassle of SSH) I moved onto setting up Wireguarda. I already had Docker and Docker Compose installed on my WSL so I didn't need to set any of that up this time around. I did run into some trouble using Docker Compose, but I was able to fix it by using the command "sudo chmod +x /usr/local/bin/docker-compose", which I got from https://thematrix.dev/install-docker-and-docker-compose-on-ubuntu-20-04/. I don't know why I had to fix the permissions again but it's fixed now so it's good I guess?
+Step 3. After my droplet was set up (I chose to password protect it to avoid the hassle of SSH) I moved onto setting up Wireguard. I already had Docker and Docker Compose installed on my WSL so I didn't need to set any of that up this time around. I did run into some trouble using Docker Compose, but I was able to fix it by using the command "sudo chmod +x /usr/local/bin/docker-compose", which I got from https://thematrix.dev/install-docker-and-docker-compose-on-ubuntu-20-04/. I don't know why I had to fix the permissions again but it's fixed now so it's good I guess?
   
 Step 4. Setting up Wireguard was relatively easy. I just had to create the /wireguard/config folder and edit the .yml file, then copy and paste the following snippet of code from https://thematrix.dev/setup-wireguard-vpn-server-with-docker/:
 
