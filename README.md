@@ -7,3 +7,6 @@ Welcome back. Today I will be detailing my installation of the Wireguard VPN usi
 4. Setting up Wireguard was relatively easy. I just had to create the /wireguard/config folder and edit the .yml file, then copy and paste a snippet of code from https://thematrix.dev/setup-wireguard-vpn-server-with-docker/, and finally tweak a few values according to the article before exiting and saving and voila! My Wireguard setup was complete.
 5. After that all I had to do was start Wireguard with the command "docker-compose up -d" and I was good to go.
 6. The final parts of the assignment were straight forward. I downloaded the Wireguard app on my phone and scanned the QR code off of WSL to connect to my VPN. The screenshots showing my IP without the VPN on, my IP with the VPN on, and the VPN interface itself are shown below.
+![SSH SC](docs/assets/wireguard_no_vpn.jpg)
+![SSH SC](docs/assets/wireguard_with_vpn.jpg)
+![SSH SC](docs/assets/wireguard_phone_interface.jpg)
